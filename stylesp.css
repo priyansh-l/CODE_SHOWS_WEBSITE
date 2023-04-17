@@ -1,0 +1,204 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+#title {
+    background-color: #0A2541;
+}
+
+.container-fluid {
+    padding: 5% 15%;
+
+
+}
+
+
+
+.padding_essential {
+    padding-top: 20%;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h6 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    padding-bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    font-weight: lighter;
+}
+
+
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+
+
+
+ #title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+
+.title-image {
+    width: 22%;
+    position: absolute;
+    right: 10%;
+    top: 2%;
+}
+
+
+#features {
+    margin-top: 100px;
+    background-color: #fff;
+    position: relative;
+
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 4.5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+
+
+#testimonials {
+
+    background-color: #0A2541;
+    color: #fff;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+
+.carousel-inner {
+    padding: 3% 15%;
+}
+
+
+#press {
+    background-color: #fff;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 30%;
+    margin: 20px 20px 50px;
+}
+
+
+
+
+
+
+
+#headlines {
+    background-color: #0A2541;
+    color: white;
+
+
+
+    height: 100vh;
+
+}
+
+#Study-Guide {
+    background-color: white;
+    height: 100vh;
+
+}
+
+#Interview-experience {
+
+    background-color: #0A2541;
+    color: white;
+    height: 100vh;
+
+}
+
+#Career {
+    background-color: floralwhite;
+    height: 100vh;
+}
+
+.testimonial-image {
+    width: 40%;
+
+    margin: 20px;
+    height: 50%;
+
+}
+
+
+.simg {
+
+    width: 30%
+}
+
+.nav-linkn {
+    color: white;
+}
+
+@media (max-width: 810px) {
+    #testimonial-carousel .carousel-inner {
+        padding-top: 20px;
+    }
+
+}

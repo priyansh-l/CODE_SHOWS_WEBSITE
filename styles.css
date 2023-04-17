@@ -1,0 +1,365 @@
+/* body */
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+#title {
+    background-color: #0A2541;
+
+}
+
+
+
+
+.container-fluid {
+    padding: 10% 20%;
+
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+/* .gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+} */
+
+.padding_essential {
+    padding-top: 20%;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h6 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* navigation bar */
+.navbar {
+    padding: 0 0 4.5rem;
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    padding-bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    font-weight: lighter;
+}
+
+/* Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* #title {
+    text-align: left;
+    /* background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite; */
+
+
+
+*/ #title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* title image */
+.title-image {
+    width: 22%;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+}
+
+/* features */
+#features {
+    margin-top: 100px;
+    background-color: #fff;
+    position: relative;
+
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 4.5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    /* background-color: #ef8172; */
+    background-color: #0A2541;
+    color: #fff;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-inner {
+    padding: 7% 15%;
+}
+
+/* press */
+#press {
+    background-color: #fff;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 30%;
+    margin: 20px 20px 50px;
+}
+
+@media(max-width:991.20px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        transform: rotate(0deg);
+        position: static;
+        width: 60%;
+        height: 130%;
+    }
+}
+
+#cta {
+    background-color: #ef8172;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding: 7% 15%;
+    color: #fff
+}
+
+.social-icon {
+    padding: 2px 3px;
+    width: 100px;
+}
+
+.placement {
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat';
+}
+
+.left_align_essential {
+    text-align: left;
+}
+
+
+
+
+
+
+/* .gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+} */
+
+/* FOOTER */
+.text-body-secondary_header {
+    font-size: 1.0rem;
+}
+
+#contact {
+    background-color: #0A2541;
+}
+
+/* RUNNING TITLE */
+/* .wrapper {
+    display: flex;
+}
+
+.wrapper .dynamic-txts {
+    margin-left: 15px;
+    height: 45px;
+    line-height: 45px;
+    overflow: hidden;
+}
+
+.dynamic-txts li {
+    list-style: none;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -180px;
+    }
+}
+
+.dynamic-txts li span {
+    position: relative;
+    margin: 5px 0;
+    line-height: 30px;
+}
+
+.dynamic-txts li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #ef8172;
+    border-left: 2px solid white;
+    animation: typing 3s steps(4) infinite;
+    
+
+}
+
+/* @keyframes typing {
+
+    40%,
+    60% {
+        left: calc(100% + 30px);
+    }
+
+    100% {
+        left: 0;
+    }
+} */
+
+.wrapper {
+    display: flex;
+}
+
+.dynamic-txts {
+    margin-left: 15px;
+    height: 45px;
+    line-height: 45px;
+    overflow: hidden;
+}
+
+.dynamic-txts li {
+    list-style: none;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 8s steps(4) infinite;
+    /* increase the number of steps to make the animation smoother */
+}
+
+@keyframes slide {
+    100% {
+        top: -180px;
+    }
+}
+
+.dynamic-txts li span {
+    position: relative;
+    margin: 5px 0;
+    line-height: 30px;
+}
+
+.dynamic-txts li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #0A2541;
+    border-left: 2px solid white;
+    animation: typing 3s steps(4) infinite;
+    /* increase the number of steps to make the animation smoother */
+}
+
+@keyframes typing {
+
+    40%,
+    60% {
+        left: calc(100% + 30px);
+        /* move the pseudo-element outside of the container */
+    }
+
+    100% {
+        left: 0;
+        /* move the pseudo-element back to the starting position */
+    }
+
+
+}
+
+.bton {
+    background-color: #0f4c81
+}
+
+.inlining_essential {
+    display: inline;
+    /* padding-right: 7%; */
+    margin-right: 3.5%;
+    padding: 4%;
+}
